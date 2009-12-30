@@ -1,0 +1,5 @@
+Simple ferret-based search page for mephisto. Needs the following adding to environment.rb
+
+  config.gem 'jkraemer-acts_as_ferret', :version => '~> 0.4.4', :lib => 'acts_as_ferret',
+             :source => 'http://gems.github.com'
+
